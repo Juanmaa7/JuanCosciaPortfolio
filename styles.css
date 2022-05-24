@@ -264,8 +264,11 @@ display:flex;
 
 .CONTACT .flex-cont .contact a:hover{
   transform: scale(1.5);
+  
   text-decoration:underline;
-  color:#FF0000;
+  text-decoration-color:#00CCFF;
+  
+  color:#C00046;
   text-shadow:none;
 }
 
