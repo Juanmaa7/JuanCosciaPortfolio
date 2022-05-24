@@ -69,7 +69,7 @@ header .nav-bar .nav a{
   
 header .nav-bar .nav a:hover, header .logo a:hover {
   text-decoration:underline;
-  text-decoration-color:#FF6600;
+  text-decoration-color:#00CCFF;
   
   color:#C00046;
 }
