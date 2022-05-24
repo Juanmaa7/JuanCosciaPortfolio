@@ -47,9 +47,11 @@ header .nav-bar{
 header .logo a{
   font-family: 'Odibee Sans', cursive;
   color:#F0F0F0;
-  font-weight:bold;
   font-size:25px;
-  transition: all 0.1s ease;
+  
+  text-shadow:-3px -1px 0px #00CCFF, 3px 1px 0px #FF007F;
+  
+  transition: all 0.3s ease;
 }
 
 header .nav-bar .nav{
@@ -60,17 +62,23 @@ position:absolute;
 header .nav-bar .nav a{
   font-family: 'Odibee Sans', cursive;
   color:#F0F0F0;
-  font-weight:bold;
   font-size:25px;
+  
+  text-shadow:-3px -1px 0px #00CCFF, 3px 1px 0px #FF007F;
+  
   margin-right:1rem;
   padding-left:1rem;
-  transition:all 0.1s ease;
+  
+  transition:all 0.3s ease;
 }
   
 header .nav-bar .nav a:hover, header .logo a:hover {
   text-decoration:underline;
   text-decoration-color:#00CCFF;
   
+  text-shadow:none;
+  
+  font-weight:bold;
   color:#C00046;
 }
 
