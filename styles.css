@@ -326,6 +326,16 @@ display:flex;
 
 /*Responsive design*/
 
+@media(max-width:1440px){
+  
+  section{
+    overflow-x:hidden;
+    
+    background-size:cover;
+  }
+  
+}
+
 @media(max-width:1200px){
   
   html{
@@ -334,6 +344,21 @@ display:flex;
   }
   
 }
+@media(max-width:1024px){
+  
+  .HOME .flex-cont .titulo{
+    
+    font-size:70px;
+  }
+  
+  .HOME .flex-cont .cursiva{
+  
+  font-size:90px;
+  
+  }
+  
+}
+
 
 /*Tablet M*/
 
