@@ -435,6 +435,8 @@ display:flex;
   
   font-size:80px;
   
+    text-shadow:-4px -4px 0px #000000, 4px 4px 0px #000000;
+    
   }
   
   .ABOUT-ME .flex-cont .texto{
