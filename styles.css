@@ -137,7 +137,7 @@ header .nav-bar .nav a:hover, header .logo a:hover {
   
   transform: rotate(-10deg);
   
-  text-shadow:-4px -4px 0px #000000, 4px 4px 0px #000000;
+  text-shadow:-6px -6px 0px #000000, 6px 6px 0px #000000;
 }
   
   
