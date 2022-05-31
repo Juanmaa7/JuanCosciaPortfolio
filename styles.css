@@ -222,14 +222,56 @@ display:flex;
  text-shadow: -4px -2px 0px #00CCFF, 4px 2px 0px #FF007F;
 }
 
-.WORKS .flex-cont .text{
-  padding-top:1rem;
-  margin-top:1rem;
+.flex-cont .imagen{
+  display:flex;
+  justify-content:center;
   
-  font-family:'Odibee Sans', cursive;
-  color:#00335A;
-  font-size:45px;
-  font-weight:bold;
+  flex-wrap:wrap;
+}
+
+.flex-cont .imagen .tp{
+  padding:1rem;
+  margin:1.5rem;
+  
+  text-shadow: -4px -4px 0px #00CCFF, 4px 4px 0px #FF007F;
+  
+  text-align:center;
+  
+  
+  transition:all 0.5s ease;
+}
+
+.flex-cont .imagen .tp:hover{
+  transform:scale(1.2);
+}
+
+.flex-cont .imagen .tp a{
+  font-family:"Odibee Sans",sans-serif;
+  font-size:25px;
+  color:#170008;
+  
+  transition:all 0.5s ease;
+}
+
+.flex-cont .imagen .tp a:hover{
+  text-shadow:none;
+  text-decoration:underline;
+  text-decoration-color:#FF007F;
+}
+
+.flex-cont .imagen .tp img{
+  width:350px;
+  height:200px;
+  
+  margin-top:.5rem;
+  
+  box-shadow: -2px -2px 4px #6E6E6E, 2px 2px 4px #6E6E6E;
+  
+  transition:all 0.3s ease;
+}
+  
+.flex-cont .imagen .tp img:hover{
+  box-shadow: -4px -4px 0px #00CCFF, 4px 4px 0px #FF007F;
 }
 
 
@@ -507,6 +549,11 @@ display:flex;
     font-size:55px;
   }
   
+  .flex-cont .imagen .tp img{
+    width:250px;
+    height:150px;
+  }
+  
   .CONTACT .flex-cont .contact a{
     padding:1rem;
     margin:1rem;
@@ -527,6 +574,11 @@ display:flex;
     font-size:45px;
     
     text-shadow:-2px -2px 0px #000000, 2px 2px 0px #000000;
+  }
+  
+  .flex-cont .imagen .tp img{
+    width:250px;
+    height:150px;
   }
   
   .CONTACT .flex-cont .contact a{
